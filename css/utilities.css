@@ -73,6 +73,27 @@
 .text-center {
   text-align: center;
 }
+
+/* Alert */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.alert i {
+  margin-right: 5px;
+}
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+  font-weight: 400;
+}
+.alert-error {
+  background-color: var(--error-color)
+  color: #fff;
+}
+
 .flex {
   display: flex;
   height: 100%;
